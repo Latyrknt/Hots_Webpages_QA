@@ -1,1 +1,1 @@
-# Hots_Webpages_QA
+# javascript-challenge

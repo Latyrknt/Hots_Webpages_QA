@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>UFO Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+
+  <!--*********************-->
+  <!-- Added by Latyr -->
+  <!--*********************-->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+</head>
+
+<body>
+  <!-- ******************************-->
+  <!-- ********* Header *************-->
+  <!-- ******************************-->
+  <header>
+    <section class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+              Visit our website
+            </a>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </header>
+
+
+  <!-- ******************************-->
+  <!-- *********  Main  *************-->
+  <!-- ******************************-->
+  <main>
+    <section class="container-fluid">
+      <h1><strong>UFO Sightings</strong></h1>
+      <hr>
+      <h2><strong>The Truth is Out There</strong></h2>
+    </section>
+
+    <section class="container-fluid">
+      <img src="UFOiStock.jpg" id="image">
+    </section> <br>
+
+    <section class="container-fluid">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">Filter Search</div>
+          <div class="panel-body">
+            <form id= "form-filters">
+              <div class="form-group">
+
+                <div class="list-group col-md-10" id="filters">
+                  <li class="filter list-group-item col-md-2">
+                    <label for="date">Enter a Date</label>
+                    <input class="form-control" id="dateTimeForm" type="text" placeholder="1/1/2010">
+                  </li>
+
+                  <li class="filter list-group-item col-md-2">
+                    <label for="city">City</label>
+                    <input class="form-control" id="cityForm" type="text" placeholder="benton">
+                  </li>
+
+                  <li class="filter list-group-item col-md-2">
+                    <label for="state">State</label>
+                    <input class="form-control" id="stateForm" type="text" placeholder="ar">
+                  </li>
+
+                  <li class="filter list-group-item col-md-2">
+                    <label for="country">Country</label>
+                    <input class="form-control" id="countryForm" type="text" placeholder="us">
+                  </li>
+
+                  <li class="filter list-group-item col-md-2">
+                    <label for="shape">Shape</label>
+                    <input class="form-control" id="shapeForm" type="text" placeholder="circle">
+                  </li>
+                </div>
+
+                <div class='col-md-2'>
+                  <button class="btn btn-default col-md-6" id="filter-btn" type="button">
+                    <strong>Apply all filters</strong>
+                  </button>
+
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+    <section class="container-fluid">
+      <div class="col-md-12">
+        <div id="table-area" class="">
+          <table id="ufo-table" class="table table-striped">
+            <thead>
+              <tr>
+                <th class="table-head">Date</th>
+                <th class="table-head">City</th>
+                <th class="table-head">State</th>
+                <th class="table-head">Country</th>
+                <th class="table-head">Shape</th>
+                <th class="table-head">Duration</th>
+                <th class="table-head">Comments</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="separator">
+
+    </section>
+
+
+  </main>
+
+
+  <!-- ******************************-->
+  <!-- *********  Footer  ***********-->
+  <!-- ******************************-->
+  <footer>
+    <section class="container-fluid" id="page-footer">
+      <p> © Copyright Latyr 05-2020 </p>
+    </section>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+
+</html>
