@@ -14,14 +14,14 @@ console.log(tableData);
 // Table body tag
 var tbody = d3.select("tbody");
 
-  // Append data to the table
-  tableData.forEach((ufoData) => {
-      var row = tbody.append("tr");
-      Object.entries(ufoData).forEach(([key, value]) => {
-        var cell = row.append("td");
-        cell.text(value);
-      });
+// Append data to the table
+tableData.forEach((ufoData) => {
+    var row = tbody.append("tr");
+    Object.entries(ufoData).forEach(([key, value]) => {
+      var cell = row.append("td");
+      cell.text(value);
     });
+  });
 
 // Identify the button that will be clicked
 var buttonFilter = d3.select("#filter-btn");
@@ -116,32 +116,7 @@ function runEnter() {
       });
   });
 
-  
-  // Identify the button that will be clicked
-  var buttonReset = d3.select("#reset-btn");
 
-  // Event #2
-  buttonReset.on("click", runEnter);
-
-      // Delete any previous output
-      tbody.html("");
-
-      // Complete the event handler function for the form
-      function runEnter() {
-
-      // Prevent the page from refreshing
-      d3.event.preventDefault(); 
-
-      // Append data to the table
-      tableData.forEach((ufoData) => {
-          var row = tbody.append("tr");
-          Object.entries(ufoData).forEach(([key, value]) => {
-          var cell = row.append("td");
-          cell.text(value);
-          });
-      });
-
-  }
 
 }
 
