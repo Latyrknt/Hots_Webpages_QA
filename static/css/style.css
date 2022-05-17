@@ -5,7 +5,12 @@
 }
 
 #filter-btn {
-  background-color:lightskyblue;
+  background-color:green;
+  color: black;
+}
+
+#reset-btn {
+  background-color:brown;
   color: black;
 }
 
