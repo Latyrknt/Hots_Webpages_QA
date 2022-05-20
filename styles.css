@@ -1,0 +1,202 @@
+body {
+  background: #f1f1f1;
+}
+
+.navbar {
+  background: white;
+}
+
+#navbar-brand-latitude {
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: relative;
+
+}
+
+#navbarDropdown {
+  background-color: grey;
+  color: white;
+  width: 87%;
+  position: relative;
+
+}
+
+ .box {
+   background: white;
+ }
+
+ p{
+   margin-top: 25px;
+   margin-bottom: 25px;
+   margin-left: 25px;
+   margin-right: 25px;
+ }
+
+ h1{
+  padding-top: 50px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: Black;
+}
+
+h2{
+  padding-top: 50px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: Black;
+}
+
+h3{
+  padding-top: 50px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: Black;
+  text-align: center;
+}
+
+/* Selecting elements by ID */
+#main-image {
+  float: left;
+  position: relative;
+  width: 40%;
+  height: 40%;
+  margin: 7px;
+}
+
+
+#main-image-visu {
+  float: center;
+  position: relative;
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#main-image-Border {
+  float: left;
+  align-content: center;
+  position: relative;
+  width: 90%;
+  height: 150px;
+  margin-left: 20px;
+  border: 2px solid red;
+}
+
+#main-imageX-NoBorder {
+  float: left;
+  align-content: center;
+  position: relative;
+  width: 90%;
+  height: 150px;
+  margin-left: 20px;
+}
+
+.main-image-compare {
+  float: center;
+  position: relative;
+  width: 60%;
+  height: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-imageZ {
+  float: left;
+  position: relative;
+  width: 90%;
+  height: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#main-imageA {
+  float: left;
+  position: relative;
+  width: 90%;
+  height: 150px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#main-imageB {
+  float: left;
+  position: relative;
+  width: 90%;
+  height: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#box-1 {
+  background-color: white;
+  height: 105%;
+  position: relative;
+  /*padding: 10px;*/
+  padding-bottom: 20px;
+
+}
+
+#box-2 {
+  background-color : white;
+  height : 100%;
+  position: relative;
+  padding: 10px;
+
+
+}
+
+.container_1{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+
+ }
+
+
+ #Col_Separator{
+   height: 50px;
+   /*background-color: blue;*/
+ }
+
+ .container_2{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  height : 900px;
+  position: relative;
+  /*background-color: red;*/
+  
+ }
+
+
+.Container2_Row_1{
+  height: 100%;
+  Position: relative;
+}
+
+.container_4 {
+  background-color : black;
+  text-align: center;
+  color: white;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+}
+
+/*#table{
+  width:70%;
+  position: relative;
+  background-color: lightgoldenrodyellow;
+  padding-right: 10px;
+}*/
+
